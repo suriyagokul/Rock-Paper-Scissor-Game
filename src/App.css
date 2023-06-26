@@ -1,0 +1,42 @@
+.App {
+    text-align: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+  }
+  .App-header {
+    /* background-color: #282c34; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    background-image: linear-gradient(to right, #4C3AE3 , #00BC40);
+    font-family: 'Poppins';
+  }
+  
+  #getstarted, #reset {
+    /* background-color: #61dafb;  */
+    border: none;
+    border-radius: 6px;
+    width: 120px;
+    height:30px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right:50px; 
+    background-image: linear-gradient(to right, #E1A2B8, #9F2BC1);
+  }
+  
+#getstarted:hover {
+    /* background-color: #05596a; */
+    cursor: pointer;
+    background-image:  linear-gradient(to right,#9F2BC1, #E1A2B8);
+  
+}
+  
+#reset:hover {
+    cursor: pointer;
+    background-image:  linear-gradient(to right,#9F2BC1, #E1A2B8);
+}
